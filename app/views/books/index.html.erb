@@ -1,0 +1,21 @@
+<div class = "book-wrap" >
+
+<h1>Books</h1>
+
+<% @books.each do |book| %>
+
+<div class = "book-list"></div>
+
+  <p>title</p>
+  <span class = "book-title"><%= link_to  book.title, "/books/#{book.id}" %></span>
+  
+  <p>body</p>
+  <span class = "book-body"><%= book.body %></span>
+
+<% end %>
+</div>
+
+<div class = "book-new">
+  
+  
+</div>
