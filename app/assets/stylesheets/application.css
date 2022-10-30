@@ -20,19 +20,59 @@
   box-sizing: border-box;
 }
 
+
 .top{
+  display: block;
   text-align: left;
+  background-color: #fff;
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin: 8px;
+}
+
+h1{
+  font-size: 2em;
+  margin: 0.67em 0;
+  
+}
+.top-page{
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
 a:hover{
   color:black;
 }
 
-.book-list{
-  text-align: left
+.main-page{
+  display: block;
+  background-color: #fff;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
-.book-body{
-  display: flex;
-  flex-wrap: wrap;
+
+.main-title{
+  margin: 1em 0;
+}
+
+table{
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+th{
+  vertical-align: middle;
+}
+
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
